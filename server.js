@@ -11,11 +11,11 @@ dotenv.config();
 // Connect to DB
 connectDB();
 
-// MIDDLEWARE
+// Middleware
 app.use(express.json());
 app.use(cors());
 
-// Import Routes
+// Routes
 const villainsRoute = require("./routes/api/villains");
 
 app.use("/villains", villainsRoute);
