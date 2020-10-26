@@ -2,9 +2,9 @@ const express = require("express");
 const router = express.Router();
 const Villain = require("../../models/Villain");
 
-// ROUTES
-// GETS BACK ALL THE VILLAINS
+// ROUTES:
 
+// GETS BACK ALL THE VILLAINS
 router.get("/", async (req, res) => {
   try {
     const villains = await Villain.find();
