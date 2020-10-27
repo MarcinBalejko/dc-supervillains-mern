@@ -1,6 +1,6 @@
 # DC Supervillains (Updated version)
 
-Updated version of DC Supervillains gallery. This project is a full-stack MERN (MongoDB, Express, React and Node.js) application. It also includes Parallax effects and CSS carousel.
+Updated version of DC Supervillains wiki app. This project is a full-stack MERN (MongoDB, Express, React and Node.js) application. It also includes Parallax effects and CSS carousel.
 
 Tools and technologies used:
 
