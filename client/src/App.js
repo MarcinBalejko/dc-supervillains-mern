@@ -26,15 +26,12 @@ class App extends Component {
   };
 
   componentDidMount() {
-    axios
-      .get("https://supervillains-react.herokuapp.com/villains")
-      .then((res) => {
-        const villains = res.data;
-
-        this.setState({
-          villains,
-        });
+    axios.get("/villains").then((res) => {
+      const villains = res.data;
+      this.setState({
+        villains,
       });
+    });
   }
 
   addButtonOnClickHandler = (e) => {
