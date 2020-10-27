@@ -50,8 +50,6 @@ class App extends Component {
     }
   };
 
-  // below needs refactoring
-
   minusButtonOnClickHandler = (e) => {
     e.preventDefault();
 

@@ -11,6 +11,12 @@ Tools and technologies used:
 - Axios
 - HTML / CSS
 
+## **Heroku**
+
+This app has been deployed to Heroku:
+
+https://dc-supervillains-mern.herokuapp.com/
+
 ---
 
 |                                                          Description                                                          |                       Image                       |
